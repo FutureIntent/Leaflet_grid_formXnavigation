@@ -1,0 +1,38 @@
+{
+  "tabWidth": 4,
+  "printWidth": 100,
+  "singleQuote": true,
+  "quoteProps": "consistent",
+  "trailingComma": "all",
+  "arrowParens": "always",
+  "overrides": [
+    {
+      "files": [
+        ".prettierrc",
+        ".eslintrc.js",
+        "*.json",
+        "*.webmanifest",
+        "*.yml",
+        "*.yaml"
+      ],
+      "options": {
+        "tabWidth": 2
+      }
+    }
+  ],
+  "importOrder": [
+    "^@providers/(.*)$",
+    "^@theme$",
+    "^@theme/(.*)$",
+    "^@services/(.)$",
+    "^@store/(.)$",
+    "^@models/(.)$",
+    "^@hooks/(.*)$",
+    "^@components/templates/(.*)$",
+    "^@components/organisms/(.*)$",
+    "^@components/molecules/(.*)$",
+    "^@components/atoms/(.*)$",
+    "^[./]"
+  ],
+  "importOrderSeparation": true
+}

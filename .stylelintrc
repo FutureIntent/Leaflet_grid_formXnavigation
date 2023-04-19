@@ -1,0 +1,13 @@
+{
+  "processors": ["stylelint-processor-styled-components"],
+  "extends": [
+    "stylelint-config-recommended",
+    "stylelint-prettier/recommended",
+    "stylelint-config-styled-components"
+  ],
+  "customSyntax": "@stylelint/postcss-css-in-js",
+      "rules": {
+        "custom-property-no-missing-var-function": false
+      }
+
+}

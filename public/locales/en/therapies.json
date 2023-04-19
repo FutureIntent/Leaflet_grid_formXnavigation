@@ -1,0 +1,20 @@
+{
+  "heading": "Upcoming session",
+  "bookedTherapies": "Booked therapies",
+  "myFavorites": "My favorites",
+  "history": "History",
+  "seeWholeList": "Show whole list",
+  "showAll": "Show all",
+  "confirmationMessage": "Please, set “start therapy” to confirm the start of the session, or enter the code given.",
+  "showCode" : "Show code",
+  "start": "Start",
+  "date": "Date",
+  "time": "Time",
+  "statuses": {
+    "busy": "Busy",
+    "preparing": "Preparing",
+    "waitingForConfirmation": "Waiting for confirmation",
+    "waitingForConfirmationMob": "Confirmation",
+    "startingUp": "Starting up"
+  }
+}
